@@ -1,5 +1,18 @@
 <?php
-
+/**
+ * To Use this page for your error page add following code to your controller
+ * `
+ *   public function actions()
+ *   {
+ *       return [
+ *           'error' => [
+ *               'class' => 'yii\web\ErrorAction',
+ *               'view' => '@yiister/gentelella/views/error',
+ *           ],
+ *       ];
+ *   }`
+ *
+ */
 /**
  * @var $this yii\web\View
  * @var $name string

@@ -2,13 +2,24 @@
   "name": "ishizune/yii2-gentelella",
   "description": "Free admin template for backend",
   "type": "yii2-extension",
-  "keywords": ["yii2","extension","backend","bootstrap3","admin","gentelella","theme","asset"],
+  "keywords": [
+    "yii2",
+    "extension",
+    "admin",
+    "panel",
+    "backend",
+    "bootstrap3",
+    "admin",
+    "gentelella",
+    "theme",
+    "asset"
+  ],
   "license": "MIT",
   "authors": [
     {
       "name": "Laura Pagan",
       "email": "info@weblagoon.it",
-      "homepage": "https://github.com/ishizune",
+      "homepage": "https://www.weblagoon.it",
       "role": "Creator"
     }
   ],
@@ -16,7 +27,7 @@
     "php": ">=5.4.0",
     "yiisoft/yii2": "~2.0.0",
     "yiisoft/yii2-bootstrap": "~2.0.0",
-    "rmrevin/yii2-fontawesome": "~2.0",
+    "rmrevin/yii2-fontawesome": "*",
     "bower-asset/gentelella": "*"
   },
   "autoload": {
