@@ -1,6 +1,11 @@
 Yii2 Gentelella Change Log
 ==========================
 
+1.5.0 May 1, 2019
+-----------------------
+
+- Import Widget for Chart, Maps and Bower Extension from fork of `mihailshumilov/yii2-gentelella`
+
 1.4.0 Under development
 -----------------------
 
