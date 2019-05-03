@@ -1,6 +1,6 @@
 <?php
 
-namespace yiister\gentelella\assets;
+namespace ishizune\gentelella\assets;
 
 use yii\web\AssetBundle;
 

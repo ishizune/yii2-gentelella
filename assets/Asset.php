@@ -5,12 +5,12 @@
  * @link http://gentelella.yiister.ru
  */
 
-namespace yiister\gentelella\assets;
+namespace ishizune\gentelella\assets;
 
 class Asset extends \yii\web\AssetBundle
 {
     public $depends = [
-        'yiister\gentelella\assets\ThemeAsset',
-        'yiister\gentelella\assets\ExtensionAsset',
+        'ishizune\gentelella\assets\ThemeAsset',
+        'ishizune\gentelella\assets\ExtensionAsset',
     ];
 }

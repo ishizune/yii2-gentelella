@@ -6,19 +6,19 @@
  * Time: 17:23
  */
 
-namespace yiister\gentelella\assets;
+namespace ishizune\gentelella\assets;
 
 
 use yii\web\AssetBundle;
 
-class MapAsset extends AssetBundle {
+class MapAsset extends AssetBundle
+{
 	public $sourcePath = '@bower/gentelella/vendors/jqvmap/';
 	public $css = [
-        'dist/jqvmap.css',
+		'dist/jqvmap.css',
 	];
 	public $js = [
 		'dist/jquery.vmap.js',
 		'dist/maps/jquery.vmap.world.js',
 	];
-
 }

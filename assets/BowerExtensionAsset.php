@@ -6,12 +6,13 @@
  * Time: 12:58
  */
 
-namespace yiister\gentelella\assets;
+namespace ishizune\gentelella\assets;
 
 
 use yii\web\AssetBundle;
 
-class BowerExtensionAsset extends AssetBundle {
+class BowerExtensionAsset extends AssetBundle
+{
 	public $sourcePath = '@bower/gentelella/vendors/';
 
 	public $css = [

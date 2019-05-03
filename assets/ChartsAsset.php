@@ -6,17 +6,16 @@
  * Time: 10:17
  */
 
-namespace yiister\gentelella\assets;
+namespace ishizune\gentelella\assets;
 
 
 use yii\web\AssetBundle;
 
-class ChartsAsset extends AssetBundle {
+class ChartsAsset extends AssetBundle
+{
 	public $sourcePath = '@bower/gentelella/vendors/';
 
-	public $css = [
-
-	];
+	public $css = [];
 	public $js = [
 		'Chart.js/dist/Chart.min.js',
 		'Chart.js/dist/Chart.bundle.min.js',

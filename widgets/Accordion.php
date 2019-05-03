@@ -5,7 +5,7 @@
  * @link http://gentelella.yiister.ru
  */
 
-namespace yiister\gentelella\widgets;
+namespace ishizune\gentelella\widgets;
 
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;

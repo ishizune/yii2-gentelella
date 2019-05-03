@@ -5,7 +5,7 @@
  * @link http://gentelella.yiister.ru
  */
 
-namespace yiister\gentelella\assets;
+namespace ishizune\gentelella\assets;
 
 use yii\web\AssetBundle;
 
@@ -13,7 +13,7 @@ class BootstrapProgressbar extends AssetBundle
 {
     public $sourcePath = '@bower/gentelella/vendors/bootstrap-progressbar/';
     public $css = [
-//        'css/custom.css',
+        //        'css/custom.css',
     ];
     public $js = [
         'bootstrap-progressbar.min.js',

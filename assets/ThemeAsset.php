@@ -5,7 +5,7 @@
  * @link http://gentelella.yiister.ru
  */
 
-namespace yiister\gentelella\assets;
+namespace ishizune\gentelella\assets;
 
 use yii\web\AssetBundle;
 
@@ -15,11 +15,11 @@ class ThemeAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
-        'yiister\gentelella\assets\BootstrapProgressbar',
-        'yiister\gentelella\assets\ThemeBuildAsset',
-        'yiister\gentelella\assets\ThemeSrcAsset',
-        'yiister\gentelella\assets\MapAsset',
-        'yiister\gentelella\assets\ChartsAsset',
-        'yiister\gentelella\assets\BowerExtensionAsset',
+        'ishizune\gentelella\assets\BootstrapProgressbar',
+        'ishizune\gentelella\assets\ThemeBuildAsset',
+        'ishizune\gentelella\assets\ThemeSrcAsset',
+        'ishizune\gentelella\assets\MapAsset',
+        'ishizune\gentelella\assets\ChartsAsset',
+        'ishizune\gentelella\assets\BowerExtensionAsset',
     ];
 }

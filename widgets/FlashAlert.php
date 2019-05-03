@@ -5,7 +5,7 @@
  * @link http://gentelella.yiister.ru
  */
 
-namespace yiister\gentelella\widgets;
+namespace ishizune\gentelella\widgets;
 
 use rmrevin\yii\fontawesome\component\Icon;
 use Yii;
@@ -69,7 +69,7 @@ class FlashAlert extends Widget
                         (isset($alert['icon']) ? new Icon($alert['icon']) . '&nbsp;' : '') . $alert['header']
                     );
                 }
-                foreach ((array) Yii::$app->session->getFlash($flashName) as $message) {
+                foreach ((array)Yii::$app->session->getFlash($flashName) as $message) {
                     echo Alert::widget(
                         [
                             'body' => $header . $message,

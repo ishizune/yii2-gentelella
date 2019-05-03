@@ -5,7 +5,7 @@
  * @link http://gentelella.yiister.ru
  */
 
-namespace yiister\gentelella\widgets;
+namespace ishizune\gentelella\widgets;
 
 use rmrevin\yii\fontawesome\component\Icon;
 use yii\helpers\ArrayHelper;
@@ -60,15 +60,11 @@ class Menu extends \yii\widgets\Menu
                 '{icon}' => isset($item['icon'])
                     ? new Icon($item['icon'], ArrayHelper::getValue($item, 'iconOptions', []))
                     : '',
-                '{badge}' => (
-                    isset($item['badge'])
-                        ? Html::tag('small', $item['badge'], $badgeOptions)
-                        : ''
-                    ) . (
-                    isset($item['items']) && count($item['items']) > 0
-                        ? (new Icon('chevron-down'))->tag('span')
-                        : ''
-                    ),
+                '{badge}' => (isset($item['badge'])
+                    ? Html::tag('small', $item['badge'], $badgeOptions)
+                    : '') . (isset($item['items']) && count($item['items']) > 0
+                    ? (new Icon('chevron-down'))->tag('span')
+                    : ''),
             ]
         );
     }
