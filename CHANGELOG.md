@@ -1,7 +1,7 @@
 Yii2 Gentelella Change Log
 ==========================
 
-1.5.0 May 1, 2019
+1.4.0 May 1, 2019
 -----------------------
 
 - New #1: Added `ChartAsset` from fork of `mihailshumilov/yii2-gentelella`
@@ -10,9 +10,6 @@ Yii2 Gentelella Change Log
 - New #4: Added `SwitcheryAsset` from `mortezakarimi/yii2-gentelella-rtl`
 - New #5: Added `AnimateCssAsset` from `mortezakarimi/yii2-gentelella-rtl`
 - New #6: Added `iCheckAsset` from `mortezakarimi/yii2-gentelella-rtl`
-
-1.4.0 Under development
------------------------
 
 1.3.1 Nov 12, 2017
 ------------------
