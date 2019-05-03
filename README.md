@@ -1,7 +1,7 @@
 Gentelella admin template for Yii2
 ==================================
 
-It is a free admin template for backend of yii framework 2 based on [gentelella](https://github.com/puikinsh/gentelella) theme and [gentelella](https://github.com/yiister/yii2-gentelella).
+It is a free admin template for backend of yii framework 2 based on [gentelella by Colorlib](https://github.com/puikinsh/gentelella) theme and [gentelella by yiister for yii2](https://github.com/yiister/yii2-gentelella).
 
 This extension consists assets bundles, widgets, some page views and a layout example.
 
@@ -15,13 +15,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist ishizune/yii2-gentelella "~1.0"
+php composer.phar require --prefer-dist ishizune/yii2-gentelella "dev-master"
 ```
 
 or add
 
 ```
-"ishizune/yii2-gentelella": "~1.0"
+"ishizune/yii2-gentelella": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
