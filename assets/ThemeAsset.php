@@ -18,7 +18,6 @@ class ThemeAsset extends AssetBundle
         'ishizune\gentelella\assets\BootstrapProgressbar',
         'ishizune\gentelella\assets\ThemeBuildAsset',
         'ishizune\gentelella\assets\ThemeSrcAsset',
-        'ishizune\gentelella\assets\MapAsset',
         'ishizune\gentelella\assets\ChartsAsset',
         'ishizune\gentelella\assets\BowerExtensionAsset',
     ];

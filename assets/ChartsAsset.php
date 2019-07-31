@@ -17,7 +17,7 @@ class ChartsAsset extends AssetBundle
 
 	public $css = [];
 	public $js = [
-		'Chart.js/dist/Chart.min.js',
+		'Chart.js/dist/Chart.min.js',//updated version to 2.8.0
 		'Chart.js/dist/Chart.bundle.min.js',
 	];
 }

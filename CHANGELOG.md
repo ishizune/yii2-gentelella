@@ -1,6 +1,14 @@
 Yii2 Gentelella Change Log
 ==========================
 
+1.5.0 Jul 31, 2019
+-----------------------
+
+- Enh #1: Deleted some useless widgets
+- Enh #2: Point to internal asset `ishizune/gentelella`
+- Enh #3: Removed bower asset and npm reference
+
+
 1.4.0 May 1, 2019
 -----------------------
 

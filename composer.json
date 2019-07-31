@@ -1,6 +1,6 @@
 {
   "name": "ishizune/yii2-gentelella",
-  "description": "Free admin template for backend",
+  "description": "gentelella yii2 custom version",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
@@ -24,21 +24,15 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0",
+    "php": ">=7.0",
     "yiisoft/yii2": "~2.0.0",
     "yiisoft/yii2-bootstrap": "~2.0.0",
     "rmrevin/yii2-fontawesome": "~2.0",
-    "bower-asset/gentelella": "*"
+    "ishizune/gentelella": "*"
   },
   "autoload": {
     "psr-4": {
       "ishizune\\gentelella\\": ""
-    }
-  },
-  "extra": {
-    "asset-installer-paths": {
-      "npm-asset-library": "vendor/npm",
-      "bower-asset-library": "vendor/bower"
     }
   }
 }
